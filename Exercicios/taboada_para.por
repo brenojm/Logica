@@ -3,20 +3,12 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro loucas = 0
-		//escreva("Você tem ", loucas, " para serem lavadas")
-		
-		faca{
-			se(loucas == 0) {
-				escreva("\nAcabaram as louças")
-			} senao {
-				escreva("\nFaltam: ", loucas)
-			}
-			loucas = loucas - 1
-			escreva("\nLavando uma louça")
-			
-			
-		}enquanto(loucas > 0)
+		inteiro numero = 7
+	
+		para(inteiro i = 0; i <= 10; i++){
+			inteiro resultado = numero * i
+			escreva("\n", numero, " * ", i, " = ", resultado)
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -24,7 +16,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 81; 
+ * @POSICAO-CURSOR = 188; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
